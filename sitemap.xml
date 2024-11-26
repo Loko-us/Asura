@@ -1,16 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+  <!-- Homepage -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/</loc>
+    <lastmod>2024-11-26T07:09:22+00:00</lastmod>
+  </url>
+
+  <!-- Page 1 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Profile.html</loc>
+    <lastmod>2024-11-25T12:00:00+00:00</lastmod>
+  </url>
+
+  <!-- Page 2 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Hinirang2.html</loc>
+    <lastmod>2024-11-24T18:30:00+00:00</lastmod>
+  </url>
+
+  <!-- Page 3 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Kristine.html</loc>
+    <lastmod>2024-11-23T15:15:00+00:00</lastmod>
+  </url>
+
+  <!-- Page 4 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Body Parts.html</loc>
+    <lastmod>2024-11-22T10:00:00+00:00</lastmod>
+  </url>
+
+  <!-- Page 5 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Button Color.html</loc>
+    <lastmod>2024-11-21T09:30:00+00:00</lastmod>
+  </url>
+
+  <!-- Page 6 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Pagination.html</loc>
+    <lastmod>2024-11-20T08:45:00+00:00</lastmod>
+  </url>
+
+  <!-- Page 7 -->
+  <url>
+    <loc>https://loko-us.github.io/Asura/Page1.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
 
 <url>
-  <loc>https://loko-us.github.io/Asura/</loc>
-  <lastmod>2024-11-26T07:09:22+00:00</lastmod>
-</url>
+    <loc>https://loko-us.github.io/Asura/Page2.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
 
+<url>
+    <loc>https://loko-us.github.io/Asura/Page3.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
+
+<url>
+    <loc>https://loko-us.github.io/Asura/Page4.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
+
+<url>
+    <loc>https://loko-us.github.io/Asura/Page5.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
+
+<url>
+    <loc>https://loko-us.github.io/Asura/Page6.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
+
+<url>
+    <loc>https://loko-us.github.io/Asura/Page7.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
+
+<url>
+    <loc>https://loko-us.github.io/Asura/Page8.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
+
+<url>
+    <loc>https://loko-us.github.io/Asura/Page9.html</loc>
+    <lastmod>2024-11-19T07:00:00+00:00</lastmod>
+  </url>
 
 </urlset>
