@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lupang Hinirang</title>
+    
+    <link rel="stylesheet" type="text/css" href="Style/lupang2.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="Style/Azure.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+</head>
+<body>
+
+    <img class="paperclip" src="Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('index.html')">
+    <div class="header"></div>
+    <input type="checkbox" class="opensidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="horizontal-1"></div>
+        <div class="horizontal-2"></div>
+        <div class="horizontal-3"></div>
+    </label>
+
+    <div class="overlay"></div>
+    <div id="sidebarMenu">
+        <div class="profile-section">
+            <a href="javascript:void(0);" onclick="showLoadingScreen('Profile.html')">
+                <img src="Diaryimg.png" alt="Profile Picture">
+            </a>
+            <h3>Andrei Delos Reyes</h3>
+            <span>Web Developer</span>
+        </div>
+        
+        <ul class="sidebarMenuInner">
+            <li><i class="fas fa-music"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Hinirang2.html')">Lupang Hinirang</a></li>
+            
+            <li><i class="fas fa-cloud"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Kristine.html')">Bagyong Kristine</a></li>
+            
+            <li><i class="fas fa-user"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Body Parts.html')">Parts of the Body</a></li>
+            
+            <li><i class="fas fa-circle-dot"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Button Color.html')">Css Button Color</a></li>
+                
+            <li><i class="fa-solid fa-book"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Pagination.html')">Pagination</a></li>
+                
+            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/llev.err" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    
+    <div class="box">
+        <h1>Lupang Hinirang</h1>
+        <img src="flag1.jpg" alt="Philippine Flag" class="flag">
+
+        <div class="audio-control">
+            <audio controls>
+                <source src="Hinirang1.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div id="para1">
+            <p>Bayang Magiliw, Perlas ng Silanganan</p>
+            <p>Alab ng Puso sa dibdib mo'y buhay</p>
+            <p>Lupang Hinirang, Duyan ka ng magiting</p>
+            <p>Sa manlulupig di ka pasisiil.</p>
+        </div>
+
+        <div id="para">
+            <p>Sa dagat at bundok,</p>
+            <p>Sa simoy at sa langit mong bughaw,</p>
+            <p>May dilag ang tula</p>
+            <p>At awit sa paglayang minamahal.</p>
+        </div>
+
+        <div id="para1">
+            <p>Ang kislap ng watawat mo'y</p>
+            <p>Tagumpay na nagniningning;</p>
+            <p>Ang bituin at araw niya</p>
+            <p>Kailan pa ma'y di magdidilim.</p>
+        </div>
+
+        <div id="para">
+            <p>Lupa ng araw, ng luwalhati't pagsinta,</p>
+            <p>Buhay ay langit sa piling mo;</p>
+            <p>Aming ligaya na pag may mang-aapi</p>
+            <p>Ang mamatay nang dahil sa iyo.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="flag2.jpg" alt="Illustration of Lupang Hinirang">
+        </div>
+
+
+
+    
+        <div class="extra-info">
+            <h2>Historical Context</h2>
+            <p class="historical-context">
+                "Lupang Hinirang" is the national anthem of the Philippines, adopted in 1898. It represents the bravery, unity, and love for country shared by Filipinos. The anthem was originally composed in Spanish and has since been translated to represent the Filipino spirit.
+            </p>
+        </div>
+    </div>
+
+    <div id="loadingScreen">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="javascript1.js"></script>
+
+</body>
+</html>

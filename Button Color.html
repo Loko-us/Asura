@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Color Buttons</title>
+    
+    
+    <link rel="stylesheet" type="text/css" href="Azure.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    
+    <style>
+        
+.main-container {
+    font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            transition: background 0.5s;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    text-align: center;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+.button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.button1 {
+    background-color: #FF5733;
+}
+
+
+.button1:hover {
+    background-color: #C70039;
+}
+
+.button2 {
+    background-color: #33FF57;
+}
+
+/
+
+.button2:hover {
+    background-color: #28A745;
+}
+
+.button3 {
+    background-color: #3357FF;
+}
+
+
+.button3:hover {
+    background-color: #1A39C7;
+}
+
+.button4 {
+    background-color: #F4D03F;
+}
+
+
+.button4:hover {
+    background-color: #D4AC0D;
+}
+
+.button5 {
+    background-color: #FF33A6;
+}
+
+
+.button5:hover {
+    background-color: #C70085;
+}
+
+.button6 {
+    background-color: #7D3C98;
+}
+
+
+.button6:hover {
+    background-color: #512E5F;
+}
+
+.button7 {
+    background-color: #2ECC71;
+}
+
+
+.button7:hover {
+    background-color: #27AE60;
+}
+
+.button8 {
+    background-color: #F1948A;
+}
+
+
+.button8:hover {
+    background-color: #CD6155;
+}
+
+.button9 {
+    background-color: #3498DB;
+}
+
+
+.button9:hover {
+    background-color: #21618C;
+}
+
+.button10 {
+    background-color: #F39C12;
+}
+
+.button10:hover {
+    background-color: #D68910;
+}
+
+.button11 {
+    background-color: #5D6D7E;
+}
+
+
+.button11:hover {
+    background-color: #34495E;
+}
+
+.button12 {
+    background-color: #E67E22;
+}
+
+
+.button12:hover {
+    background-color: #CA6F1E;
+}
+
+.button13 {
+    background-color: #85C1E9;
+}
+
+
+.button13:hover {
+    background-color: #5DADE2;
+}
+
+.button14 {
+    background-color: #117A65;
+}
+
+
+.button14:hover {
+    background-color: #0B5345;
+}
+
+.button15 {
+    background-color: #D35400;
+}
+
+
+.button15:hover {
+    background-color: #A04000;
+}
+
+.button16 {
+    background-color: #1ABC9C;
+}
+
+
+.button16:hover {
+    background-color: #148F77;
+}
+
+.button17 {
+    background-color: #566573;
+}
+
+
+.button17:hover {
+    background-color: #2C3E50;
+}
+
+.button18 {
+    background-color: #A9DFBF;
+}
+
+.button18:hover {
+    background-color: #82E0AA;
+}
+
+.button19 {
+    background-color: #ABB2B9;
+}
+
+.button19:hover {
+    background-color: #7B7D7D;
+}
+
+.button20 {
+    background-color: #85929E;
+}
+
+
+.button20:hover {
+    background-color: #5D6D7E;
+}
+
+.button21 {
+    background-color: #E74C3C;
+}
+
+
+.button21:hover {
+    background-color: #C0392B;
+}
+
+.button22 {
+    background-color: #E5E8E8;
+}
+
+
+.button22:hover {
+    background-color: #CACFD2;
+}
+
+.button23 {
+    background-color: #1C2833;
+}
+
+
+.button23:hover {
+    background-color: #212F3C;
+}
+
+.button24 {
+    background-color: #AF601A;
+}
+
+
+.button24:hover {
+    background-color: #935116;
+}
+
+.button25 {
+    background-color: #7FB3D5;
+}
+
+
+.button25:hover {
+    background-color: #5499C7;
+}
+
+.button26 {
+    background-color: #B03A2E;
+}
+
+
+.button26:hover {
+    background-color: #943126;
+}
+
+.button27 {
+    background-color: #9B59B6;
+}
+
+
+.button27:hover {
+    background-color: #8E44AD;
+}
+
+.button28 {
+    background-color: #48C9B0;
+}
+
+
+.button28:hover {
+    background-color: #1ABC9C;
+}
+
+.button29 {
+    background-color: #34495E;
+}
+
+
+.button29:hover {
+    background-color: #2C3E50;
+}
+
+.button30 {
+    background-color: #F0B27A;
+}
+
+
+.button30:hover {
+    background-color: #EB984E;
+}
+
+.button31 {
+    background-color: #FAD7A0;
+}
+
+
+.button31:hover {
+    background-color: #F5CBA7;
+}
+
+.button32 {
+    background-color: #F5B7B1;
+}
+
+
+.button32:hover {
+    background-color: #F1948A;
+}
+
+.button33 {
+    background-color: #D5DBDB;
+}
+
+
+.button33:hover {
+    background-color: #BFC9CA;
+}
+
+.button34 {
+    background-color: #CACFD2;
+}
+
+
+.button34:hover {
+    background-color: #B3B6B7;
+}
+
+.button35 {
+    background-color: #2E4053;
+}
+
+
+.button35:hover {
+    background-color: #212F3C;
+}
+
+.button36 {
+    background-color: #BA4A00;
+}
+
+
+.button36:hover {
+    background-color: #A04000;
+}
+
+.button37 {
+    background-color: #2980B9;
+}
+
+
+.button37:hover {
+    background-color: #21618C;
+}
+
+.button38 {
+    background-color: #CB4335;
+}
+
+
+.button38:hover {
+    background-color: #B03A2E;
+}
+
+.button39 {
+    background-color: #1F618D;
+}
+
+
+.button39:hover {
+    background-color: #154360;
+}
+
+.button40 {
+    background-color: #839192;
+}
+
+
+.button40:hover {
+    background-color: #626567;
+}
+
+.button41 {
+    background-color: #1B4F72;
+}
+
+
+.button41:hover {
+    background-color: #154360;
+}
+
+.button42 {
+    background-color: #7E5109;
+}
+
+
+.button42:hover {
+    background-color: #6E2C00;
+}
+
+.button43 {
+    background-color: #148F77;
+}
+
+
+.button43:hover {
+    background-color: #117A65;
+}
+
+.button44 {
+    background-color: #512E5F;
+}
+
+
+.button44:hover {
+    background-color: #4A235A;
+}
+
+.button45 {
+    background-color: #A04000;
+}
+
+
+.button45:hover {
+    background-color: #873600;
+}
+
+.button46 {
+    background-color: #17202A;
+}
+
+
+.button46:hover {
+    background-color: #1C2833;
+}
+
+.button47 {
+    background-color: #FDEDEC;
+}
+
+
+.button47:hover {
+    background-color: #FADBD8;
+}
+
+.button48 {
+    background-color: #566573;
+}
+
+
+.button48:hover {
+    background-color: #2C3E50;
+}
+
+.button49 {
+    background-color: #D68910;
+}
+
+
+.button49:hover {
+    background-color: #B9770E;
+}
+
+.button50 {
+    background-color: #2471A3;
+}
+.button50:hover {
+    background-color: #1A5276;
+}
+
+    </style>
+</head>
+<body>
+    
+    <img class="paperclip" src="Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('index.html')">
+    
+    <div class="header"></div>
+    <input type="checkbox" class="opensidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="horizontal-1"></div>
+        <div class="horizontal-2"></div>
+        <div class="horizontal-3"></div>
+    </label>
+
+    <div class="overlay"></div>
+
+    <div id="sidebarMenu">
+        <div class="profile-section">
+            <a href="javascript:void(0);" onclick="showLoadingScreen('Profile.html')">
+                <img src="Diaryimg.png" alt="Profile Picture">
+            </a>
+            <h3>Andrei Delos Reyes</h3>
+            <span>Web Developer</span>
+        </div>
+        
+                <ul class="sidebarMenuInner">
+            <li><i class="fas fa-music"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Hinirang2.html')">Lupang Hinirang</a></li>
+            
+            <li><i class="fas fa-cloud"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Kristine.html')">Bagyong Kristine</a></li>
+            
+            <li><i class="fas fa-user"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Body Parts.html')">Parts of the Body</a></li>
+            
+            <li><i class="fas fa-circle-dot"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Button Color.html')">Css Button Color</a></li>
+                
+            <li><i class="fa-solid fa-book"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Pagination.html')">Pagination</a></li>
+                
+            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/llev.err" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    
+    
+
+    
+    
+    
+    
+<br><br><br><br>
+   
+
+
+
+    <div class="main-container">
+        <h2>Color Buttons</h2>
+        <p>Here are 50 buttons with unique colors:</p>
+    
+<button class="button button1">Red-Orange</button>
+<button class="button button2">Green</button>
+<button class="button button3">Blue</button>
+<button class="button button4">Yellow</button>
+<button class="button button5">Pink</button>
+<button class="button button6">Purple</button>
+<button class="button button7">Emerald</button>
+<button class="button button8">Light Coral</button>
+<button class="button button9">Sky Blue</button>
+<button class="button button10">Orange</button>
+<button class="button button11">Slate Gray</button>
+<button class="button button12">Carrot</button>
+<button class="button button13">Soft Blue</button>
+<button class="button button14">Teal Green</button>
+<button class="button button15">Rust</button>
+<button class="button button16">Aqua</button>
+<button class="button button17">Steel Gray</button>
+<button class="button button18">Mint Green</button>
+<button class="button button19">Silver</button>
+<button class="button button20">Slate Blue</button>
+<button class="button button21">Crimson</button>
+<button class="button button22">Light Gray</button>
+<button class="button button23">Charcoal</button>
+<button class="button button24">Golden Brown</button>
+<button class="button button25">Pale Blue</button>
+<button class="button button26">Brick Red</button>
+<button class="button button27">Lavender</button>
+<button class="button button28">Turquoise</button>
+<button class="button button29">Dark Slate</button>
+<button class="button button30">Peach</button>
+<button class="button button31">Light Peach</button>
+<button class="button button32">Rose</button>
+<button class="button button33">Light Silver</button>
+<button class="button button34">Soft Gray</button>
+<button class="button button35">Deep Charcoal</button>
+<button class="button button36">Burnt Orange</button>
+<button class="button button37">Royal Blue</button>
+<button class="button button38">Scarlet</button>
+<button class="button button39">Deep Blue</button>
+<button class="button button40">Ash Gray</button>
+<button class="button button41">Navy Blue</button>
+<button class="button button42">Cinnamon</button>
+<button class="button button43">Jade Green</button>
+<button class="button button44">Deep Violet</button>
+<button class="button button45">Dark Amber</button>
+<button class="button button46">Midnight Black</button>
+<button class="button button47">Blush</button>
+<button class="button button48">Gunmetal</button>
+<button class="button button49">Goldenrod</button>
+<button class="button button50">Azure Blue</button>
+
+    <div id="loadingScreen">
+        <div class="spinner"></div>
+    </div>
+
+
+<script src="javascript1.js"></script>
+
+</body>
+</Html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+     <link rel="stylesheet" type="text/css" href="Animation09.css"/>   
+    
+      <link rel="stylesheet" type="text/css" href="Azure.css"/>    
+    
+    <title>Toggle Menu</title>
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+<style>
+
+body {
+background-color: white;
+background-image: url('kupal.jpg'), url('floral-fallback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.pagination {
+  display: inline-block;
+  font-family: none;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: solid black 1px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: solid black 1px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+  
+  .univ{
+      text-align: center;
+      font-family: serif;
+      border: solid black 2px;
+      padding: 5px;
+      margin: 10px;
+      background-color: #fff;
+  }
+
+</style>
+</head>
+
+<body>
+
+    <img class="paperclip" src="Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('index.html')">
+    
+    <div class="header"></div>
+    <input type="checkbox" class="opensidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="horizontal-1"></div>
+        <div class="horizontal-2"></div>
+        <div class="horizontal-3"></div>
+    </label>
+
+    <div class="overlay"></div>
+    <div id="sidebarMenu">
+        <div class="profile-section">
+            <a href="javascript:void(0);" onclick="showLoadingScreen('Profile.html')">
+                <img src="images/Diaryimg.png" alt="Profile Picture">
+            </a>
+            <h3>Andrei Delos Reyes</h3>
+            <span>Web Developer</span>
+        </div>
+        
+                <ul class="sidebarMenuInner">
+            <li><i class="fas fa-music"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Hinirang2.html')">Lupang Hinirang</a></li>
+            
+            <li><i class="fas fa-cloud"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Kristine.html')">Bagyong Kristine</a></li>
+            
+            <li><i class="fas fa-user"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Body Parts.html')">Parts of the Body</a></li>
+            
+            <li><i class="fas fa-circle-dot"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Button Color.html')">Css Button Color</a></li>
+                
+            <li><i class="fa-solid fa-book"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Pagination.html')">Pagination</a></li>
+                
+            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/llev.err" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    
+    <br> <br> <br> <br>
+    
+
+
+<img src="E.jpg" width="300px" height="180"><br>
+
+<p class="univ">Ngunit sa kabila ng lahat. Kahit na si Andrei ay nag dadalawang isip, pumayag na rin siya at inisip na ito ay pag subok na dapat niyang harapin. Ito naman ay ikinatuwa ng tatlong magkakaibigan.</p>
+<br><br>
+
+<div class="pagination">
+  <a href="Page3.html">&laquo;</a>
+  <a href="Pagination.html">1</a>
+  <a href="Page1.html">2</a>
+  <a href="Page2.html">3</a>
+  <a href="Page3.html">4</a>
+  <a class="active" href="Page4.html">5</a>
+  <a href="Page5.html">6</a>
+  <a href="Page6.html">7</a>
+  <a href="Page7.html">8</a>
+  <a href="Page8.html">9</a>
+  <a href="Page9.html">10</a>
+  <a href="Page5.html">&raquo;</a>
+</div>
+
+
+
+    <div id="loadingScreen">
+        <div class="spinner"></div>
+    </div>
+
+<script src="javascript1.js"></script>
+
+</body>
+</html>

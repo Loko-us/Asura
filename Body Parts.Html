@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="Azure.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="Body.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    
+    <title>Body Parts For Nursery</title>
+    
+    
+<style>
+
+.body-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #6643b5;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    background-image: url('Images/kupal.jpg'), url('Images/floral-fallback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    </style>
+</head>
+<body>
+    <img class="paperclip" src="Images/Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('Toggle Menu.html')">
+    
+    <div class="header"></div>
+    <input type="checkbox" class="opensidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="horizontal-1"></div>
+        <div class="horizontal-2"></div>
+        <div class="horizontal-3"></div>
+    </label>
+
+    <div class="overlay"></div>
+
+    <div id="sidebarMenu">
+        <div class="profile-section">
+            <a href="javascript:void(0);" onclick="showLoadingScreen('Profile.html')">
+                <img src="images/Diaryimg.png" alt="Profile Picture">
+            </a>
+            <h3>Andrei Delos Reyes</h3>
+            <span>Web Developer</span>
+        </div>
+        
+                <ul class="sidebarMenuInner">
+            <li><i class="fas fa-music"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Hinirang2.html')">Lupang Hinirang</a></li>
+            
+            <li><i class="fas fa-cloud"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Kristine.html')">Bagyong Kristine</a></li>
+            
+            <li><i class="fas fa-user"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Body Parts.html')">Parts of the Body</a></li>
+            
+            <li><i class="fas fa-circle-dot"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Button Color.html')">Css Button Color</a></li>
+                
+            <li><i class="fa-solid fa-book"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Pagination.html')">Pagination</a></li>
+                
+            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/llev.err" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+
+    <h1>Body Parts For Nursery</h1>
+
+    
+<div class="audio-container">
+    <audio id="audio" controls>
+        <source src="mp3/aizen.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+    <div class="container">
+
+        <div class="body-part">
+            <img src="Images/Heads.jpg" alt="Head">
+            
+            <div class="tooltip">Houses the brain, eyes, and senses.</div>
+        </div>
+
+
+        <div class="body-part">
+            <img src="Images/Shoulders.jpg" alt="Shoulder">
+            
+            <div class="tooltip">Enables arm movement, helps in lifting.</div>
+        </div>
+
+    
+        <div class="body-part">
+            <img src="Images/Arm.jpg" alt="Arm">
+            
+            <div class="tooltip">Used to lift, carry, and hold things.</div>
+        </div>
+
+    
+        <div class="body-part">
+            <img src="Images/Hands1.jpg" alt="Hand">
+            
+            <div class="tooltip">Helps in grasping and holding objects.</div>
+        </div>
+
+    
+        <div class="body-part">
+            <img src="Images/Legs.jpg" alt="Leg">
+        
+            <div class="tooltip">Supports the body and aids in walking.</div>
+        </div>
+
+
+        <div class="body-part">
+            <img src="Images/Foot1.jpg" alt="Foot">
+            
+            <div class="tooltip">Helps in balance and movement.</div>
+        </div>
+
+    
+        <div class="body-part">
+            <img src="Images/Kness.jpg" alt="Knee">
+            
+            <div class="tooltip">Allows bending of the leg.</div>
+        </div>
+
+    
+        <div class="body-part">
+            <img src="Images/Eye.jpg" alt="Eye">
+            
+            <div class="tooltip">Used for seeing and observing surroundings.</div>
+        </div>
+
+        
+        <div class="body-part">
+            <img src="Images/Ears.jpg" alt="Ear">
+    
+            <div class="tooltip">Helps in hearing sounds.</div>
+        </div>
+
+    
+        <div class="body-part">
+            <img src="Images/Nose.jpg" alt="Nose">
+            
+            <div class="tooltip">Used for smelling and breathing.</div>
+        </div>
+
+        
+        <div class="body-part">
+            <img src="Images/Mouth.jpg" alt="Mouth">
+            
+            <div class="tooltip">Used for eating, speaking, and breathing.</div>
+        </div>
+    </div>
+
+    <div id="loadingScreen">
+        <div class="spinner"></div>
+    </div>
+    
+<script src="Script/javascript1.js"></script>   
+    
+</body>
+</html>
