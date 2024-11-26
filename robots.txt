@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://loko-us.github.io/Azure/sitemap.xml
