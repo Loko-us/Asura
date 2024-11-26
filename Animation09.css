@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.opensidebarMenu:checked ~ #center {
+    display: none;
+}
+
+.mainInner {
+    position: relative;
+    text-align: center;
+}
+
+.mainInner div {
+    font-size: 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+.mainInner div:nth-child(1) {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-text-stroke: 1px #03a9f4;
+    padding: 10px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+.mainInner div:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes animate {
+    0%, 100% {
+        clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+        );
+    }
+    50% {
+        clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+        );
+    }
+}
+

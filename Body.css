@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f8fe;
+    color: #333;
+}
+
+
+
+h1 {
+    color: #333;
+    font-size: 2.8em;
+    margin: 30px auto;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 3px solid  #6643b5;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+}
+
+
+
+
+.container {
+    display: ;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 850px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 3px solid  #6643b5;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+
+.body-part:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(59, 89, 152, 0.5);
+}
+
+.body-part img {
+    width: 200px;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 3px solid  #6643b5;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.body-part img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 5px 15px rgba(76, 139, 245, 0.5);
+}
+
+.body-part p {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #555;
+    margin: 10px 0;
+}
+
+.tooltip {
+    visibility: hidden;
+    background-color: #6643b5;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    bottom: calc(100% + 15px);
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    width: 150px;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: #6643b5 transparent transparent transparent;
+}
+
+.body-part:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-5px);
+}
+

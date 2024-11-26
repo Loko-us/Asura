@@ -1,0 +1,186 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222831;
+    color: #333;
+}
+
+.box {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222831;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+h2 p {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:Black;
+}
+
+h1 p {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:White;
+}
+
+p {
+    font-size: 23px;
+    line-height: 1.5;
+    color: White;
+}
+
+.flag {
+    width: 120px;
+    margin: 20px auto;
+}
+
+.audio-control {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    width: 90%;
+    max-width: 500px;
+}
+
+.audio-control audio {
+    width: 100%;
+    outline: none;
+}
+
+
+.extra-info {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f0f5;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.toggle-button {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.translation {
+    display: none;
+    margin-top: 20px;
+    font-style: italic;
+    color: #333;
+}
+
+.historical-context {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type="checkbox"] {
+    display: None;
+}
+
+input[type="checkbox"]:checked ~ .sidebarIconToggle .horizontal {
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ .sidebarIconToggle .diagonal.part-1 {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+input[type="checkbox"]:checked ~ .sidebarIconToggle .diagonal.part-2 {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+
+}
+
+
+@media (max-width: 768px) {
+    #sidebarMenu {
+        width: 100%;
+        transform: translateX(-100%);
+    }
+
+    input[type="checkbox"]:checked ~ #sidebarMenu ~ .box .audio-control,
+    input[type="checkbox"]:checked ~ .audio-control,
+    input[type="checkbox"]:checked ~ .paperclip {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked ~ .sticky-note {
+        display: none;
+    }
